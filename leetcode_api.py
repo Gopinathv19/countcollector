@@ -108,7 +108,7 @@ def main():
                     st.download_button(
                         label="📥 Download Statistics CSV",
                         data=csv,
-                        file_name=f"leetcode_stats_{datetime.now().strftime('%Y%m%d_%H%M')}.csv",
+                        file_name=f"leetcode_stats_{datetime.datetime.now().strftime('%Y%m%d_%H%M')}.csv",
                         mime="text/csv"
                     )
                     
